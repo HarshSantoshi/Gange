@@ -1,14 +1,16 @@
 import './signin.css'
+
+
 function SignIn() {
     return (
         <section>
             <div className='sign_container'>
                 <div className='sign_header'>
-                    <img src= "" alt='Company LOGO' />
+                    <h2 id = 'heading'>GANGE</h2>
                 </div>
                 <div className='sign_form'>
                     <form method='POST'>
-                        <h1>Sign-In</h1>
+                        <h1>Login</h1>
                         <div className='form_data'>
                             <label htmlFor='email' >Email</label>
                             <input type='text'
@@ -19,8 +21,8 @@ function SignIn() {
                             <input type='password'
                                 name="password" id='password' placeholder='At least 6 characters' />
                         </div>
-                        dajkdh
-                        <button className='signin_btn' >Login</button>
+
+                        <button className='signin_btn' >Login as Farmer</button>
                     </form>
                 </div>
                 <div className='create_accountinfo'>
